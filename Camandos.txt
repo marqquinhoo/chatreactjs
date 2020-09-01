@@ -1,0 +1,12 @@
+Criar o Package.json
+npm init -y
+
+Instalar bibliotecas
+yarn add ejs express socket.io
+
+Iniciar o Servidor
+node server.js
+
+socket.emit => envia a mensagem para o socket;
+socket.on => escuta a mensagens;
+socket.broadcast.emit => envia mensagens para todos os sockets conectados
